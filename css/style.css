@@ -1,0 +1,18 @@
+.todo-container{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+
+}
+
+#todoList{
+    list-style-type: none;
+}
+
+#todoList li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
